@@ -171,7 +171,7 @@ namespace org.worldcubeassociation.tnoodle.svglite
             setAttribute("stroke", colorToStr(c));
         }
 
-        public void setStroke(int strokeWidth, int miterLimit, String lineJoin)
+        public void setStroke(int strokeWidth, int miterLimit, string lineJoin)
         {
             setStyle("stroke-width", strokeWidth + "px");
             setStyle("stroke-miterlimit", "" + miterLimit);

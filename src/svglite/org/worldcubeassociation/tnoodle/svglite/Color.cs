@@ -60,7 +60,7 @@ namespace org.worldcubeassociation.tnoodle.svglite
             return int.Parse(htmlHex);
         }
 
-        public Color(String htmlHex)
+        public Color(string htmlHex)
             : this(hexToRGB(htmlHex))
         {
         }
